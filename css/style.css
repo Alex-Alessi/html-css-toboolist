@@ -36,5 +36,28 @@
   }
 
   .middle-container{
-    
+    background-color: white;
+    margin: 30px 350px;
+    line-height: 40px;
+    padding: 19px 0;
+    align-items: center;
   }
+
+  .button-edit{
+    background-color: rgb(48 48 226 / 84%);
+    margin-left: 50px;
+    height: 30px;
+    width: 75px;
+    border-radius: 15%;
+    border-color:rgb(48 48 226 / 84%);
+  }
+
+    .button-section-edit{
+        border-color: gray;
+        height: 30px;
+        width: 95px;
+        border-radius: 15%;
+        margin-left: 5px;
+    }
+
+
