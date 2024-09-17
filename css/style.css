@@ -37,19 +37,20 @@
 
   .middle-container{
     background-color: white;
-    margin: 30px 350px;
+    margin: 30px 350px ;
     line-height: 40px;
     padding: 19px 0;
     align-items: center;
+    max-width: 100%;
   }
 
   .button-edit{
-    background-color: rgb(48 48 226 / 84%);
+    background-color: rgb(88 161 236);
     margin-left: 50px;
     height: 30px;
     width: 75px;
     border-radius: 15%;
-    border-color:rgb(48 48 226 / 84%);
+    border-color:rgb(88 161 236);
   }
 
     .button-section-edit{
@@ -60,4 +61,90 @@
         margin-left: 5px;
     }
 
+    .type-write{
+        background-color: transparent;
+        color: rgb(215, 214, 214);
+    }
 
+    .bottom-container{
+        background-color: white;
+        margin: 30px 350px ;
+        line-height: 40px;
+        padding: 19px 0;
+        align-items: center;
+        max-width: 100%;
+    }
+
+    .circle-green{
+        width: 21px;
+        height: 21px;
+        border: 2px solid green; 
+        border-radius: 50%; 
+        display: inline-block;
+        text-align: center;
+        color: green;
+        vertical-align: middle;
+    }
+
+    .riga-elenco{
+        line-height: 23px;
+    }
+
+    .button-edit-smussato{
+        background-color: rgb(88 161 236);
+        margin-left: 4px;
+        height: 30px;
+        width: 75px;
+        border-radius: 34%;
+        border-color:rgb(88 161 236);
+      }
+
+    .space{
+        margin-top: 20px;
+        background-color: white; 
+        /* color: white; */
+    }
+
+    .color-string{
+        background-color: white;
+        color: black;
+    }
+
+    .button-edit-smussato-viola{
+        background-color: rgb(155, 24, 188);
+        margin-left: 4px;
+        height: 30px;
+        width: 75px;
+        border-radius: 34%;
+        border-color:rgb(155, 24, 188);
+      
+    }
+
+    .circle-red{
+        width: 21px;
+        height: 21px;
+        border: 2px solid red; 
+        border-radius: 50%; 
+        display: inline-block;
+        text-align: center;
+        color: red;
+        vertical-align: middle;
+    }
+
+    .button-edit-smussato-verde{
+        background-color: green;
+        margin-left: 4px;
+        height: 30px;
+        width: 75px;
+        border-radius: 34%;
+        border-color:green;
+    }
+
+    .button-edit-smussato-arancione{
+        background-color: orange;
+        margin-left: 4px;
+        height: 30px;
+        width: 75px;
+        border-radius: 34%;
+        border-color:orange;
+    }
