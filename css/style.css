@@ -1,168 +1,178 @@
+/* FONT */
+@font-face {
+  font-family: Arial;
+  src: url("./fonts/Arial/Arialmedium.otf");
+}
+
 /* # RESET */
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    background-color: rgb(235, 234, 234);
-  }
-  
-  /* # UTILS */
-  
-  .container {
-    background-color: white;
-    margin: 0 auto;
-    padding: 0 10px;
-    width: 1000px;
-    max-width: 100%;
-  }
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(235 234 234 / 9%);
+}
 
-  .logo-img{
-    display: inline-block;
-    height: 60px;
-    vertical-align: middle;
-  }
+/* # UTILS */
 
-  .toboolist-style{
-    background-color: white;
-  }
+.container {
+  display: flex;
+  background-color: white;
+  margin: 0 auto;
+  padding: 0 10px;
+  width: 1000px;
+  max-width: 100%;
+}
 
-  .upper-container{
-    margin: 30px 0;
-    align-items: center;
-    line-height: 100px;
-    padding: 15px 0;
-    background-color: white;
-  }
+.logo-img {
+  display: inline-block;
+  height: 60px;
+  vertical-align: middle;
+}
 
-  .middle-container{
-    background-color: white;
-    margin: 30px 350px ;
-    line-height: 40px;
-    padding: 19px 0;
-    align-items: center;
-    max-width: 100%;
-  }
+.toboolist-style {
+  background-color: white;
+  font-size: 40px;
+  vertical-align: middle;
+}
 
-  .button-edit{
-    background-color: rgb(88 161 236);
-    margin-left: 50px;
-    height: 30px;
-    width: 75px;
-    border-radius: 15%;
-    border-color:rgb(88 161 236);
-  }
+.upper-container {
+  margin: 30px 0;
+  line-height: 100px;
+  padding: 15px 0;
+  background-color: white;
+}
 
-    .button-section-edit{
-        border-color: gray;
-        height: 30px;
-        width: 95px;
-        border-radius: 15%;
-        margin-left: 5px;
-    }
+.middle-container {
+  background-color: white;
+  margin-inline: 329px;
+  margin-bottom: -10px;
+  line-height: 40px;
+  padding: 19px 0;
+  align-items: center;
+  max-width: 100%;
+}
 
-    .type-write{
-        background-color: transparent;
-        color: rgb(215, 214, 214);
-    }
+.button-edit {
+  background-color: rgb(88 161 236);
+  margin-left: 50px;
+  height: 30px;
+  width: 75px;
+  border-radius: 7px;
+  border-color: rgb(88 161 236);
+}
 
-    .bottom-container{
-        background-color: white;
-        margin: 30px 350px ;
-        line-height: 40px;
-        padding: 19px 43px;
-        align-items: center;
-        max-width: 100%;
-    }
+.button-section-edit {
+  border-color: gray;
+  height: 30px;
+  width: 95px;
+  border-radius: 7px;
+  margin-left: 5px;
+}
 
-    .circle-green{
-        width: 21px;
-        height: 21px;
-        border: 2px solid green; 
-        border-radius: 50%; 
-        display: inline-block;
-        text-align: center;
-        color: green;
-        vertical-align: middle;
-    }
+.type-write {
+  background-color: transparent;
+  color: rgb(215, 214, 214);
+}
 
-    .riga-elenco{
-        line-height: 23px;
-    }
+.bottom-container {
+  background-color: white;
+  margin-top: 10px;
+  margin-inline: 329px;
+  line-height: 40px;
+  padding: 1px 43px;
+  align-items: center;
+  max-width: 100%;
+}
 
-    .button-edit-smussato{
-        background-color: rgb(88 161 236);
-        margin-left: 4px;
-        height: 30px;
-        width: 75px;
-        border-radius: 34%;
-        border-color:rgb(88 161 236);
-      }
+.circle-green {
+  width: 21px;
+  height: 21px;
+  border: 2px solid green;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  color: green;
+  vertical-align: middle;
+}
 
-    .space{
-        margin-top: 20px;
-        background-color: white; 
-        /* color: white; */
-    }
+.riga-elenco {
+  line-height: 23px;
+  background-color: white;
+}
 
-    .color-string{
-        background-color: white;
-        color: black;
-    }
+.button-edit-smussato {
+  background-color: rgb(88 161 236);
+  margin-left: 4px;
+  height: 30px;
+  width: 75px;
+  border-radius: 15px;
+  border-color: rgb(88 161 236);
+}
 
-    .button-edit-smussato-viola{
-        background-color: rgb(155, 24, 188);
-        margin-left: 4px;
-        height: 30px;
-        width: 75px;
-        border-radius: 34%;
-        border-color:rgb(155, 24, 188);
-      
-    }
+.space {
+  margin-top: 20px;
+  background-color: white;
+  /* color: white; */
+}
 
-    .circle-red{
-        width: 21px;
-        height: 21px;
-        border: 2px solid red; 
-        border-radius: 50%; 
-        display: inline-block;
-        text-align: center;
-        color: red;
-        vertical-align: middle;
-    }
+.color-string {
+  background-color: white;
+  color: black;
+}
 
-    .button-edit-smussato-verde{
-        background-color: green;
-        margin-left: 4px;
-        height: 30px;
-        width: 75px;
-        border-radius: 34%;
-        border-color:green;
-    }
+.button-edit-smussato-viola {
+  background-color: rgb(155, 24, 188);
+  margin-left: 4px;
+  height: 30px;
+  width: 75px;
+  border-radius: 15px;
+  border-color: rgb(155, 24, 188);
+}
 
-    .button-edit-smussato-arancione{
-        background-color: orange;
-        margin-left: 4px;
-        height: 30px;
-        width: 75px;
-        border-radius: 34%;
-        border-color:orange;
-    }
+.circle-red {
+  width: 21px;
+  height: 21px;
+  border: 2px solid red;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  color: red;
+  vertical-align: middle;
+}
 
-    .button-edit-smussato-rosa{
-        background-color:rgb(244, 126, 145);
-        margin-left: 4px;
-        height: 30px;
-        width: 75px;
-        border-radius: 34%;
-        border-color:rgb(244, 126, 145);
-    }
+.button-edit-smussato-verde {
+  background-color: green;
+  margin-left: 4px;
+  height: 30px;
+  width: 75px;
+  border-radius: 15px;
+  border-color: green;
+}
 
-    .button-edit-smussato-lime{
-        background-color:rgb(187, 195, 36);
-        margin-left: 4px;
-        height: 30px;
-        width: 75px;
-        border-radius: 34%;
-        border-color:rgb(187, 195, 36);
-    }
+.button-edit-smussato-arancione {
+  background-color: orange;
+  margin-left: 4px;
+  height: 30px;
+  width: 75px;
+  border-radius: 15px;
+  border-color: orange;
+}
+
+.button-edit-smussato-rosa {
+  background-color: rgb(244, 126, 145);
+  margin-left: 4px;
+  height: 30px;
+  width: 75px;
+  border-radius: 15px;
+  border-color: rgb(244, 126, 145);
+}
+
+.button-edit-smussato-lime {
+  background-color: rgb(187, 195, 36);
+  margin-left: 4px;
+  height: 30px;
+  width: 75px;
+  border-radius: 15px;
+  border-color: rgb(187, 195, 36);
+}
